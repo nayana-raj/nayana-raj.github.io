@@ -1,8 +1,12 @@
-### Dept. of Humanities and Social Sciences,
-### Indian Institute of Technology Delhi,
-### 110016 Delhi, India.
+**Dept. of Humanities and Social Sciences,**
 
-### Email: nayana dot raj squiggle hss dot iitd dot ac dot in
+**Indian Institute of Technology Delhi,**
+
+**110016 Delhi, India.**
+
+**Email: nayana dot raj squiggle hss dot iitd dot ac dot in**
+
+
 
 I'm Nayana (pronounced /najəna/).
 
