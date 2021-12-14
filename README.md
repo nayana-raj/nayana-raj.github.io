@@ -1,6 +1,10 @@
-<p align="left">
-  <img src="images/black.jpg" width="350" title="picture">
-</p>
+### Dept. of Humanities and Social Sciences,
+### Indian Institute of Technology Delhi,
+### 110016 Delhi, India.
+
+### Email: nayana dot raj squiggle hss dot iitd dot ac dot in
+
+I'm Nayana (pronounced /najəna/).
 
 I am a PhD student working with Prof. Samar Husain at the [Psycholinguistics Lab](https://web.iitd.ac.in/~samar/lab.html) housed in the [Linguistics Unit](https://sites.google.com/view/iit-delhi-linguistics) at the Department of Humanities and Social Sciences, IIT-Delhi.
 
