@@ -1,3 +1,4 @@
+**Email: nayana dot raj squiggle hss dot iitd dot ac dot in**
 
 <img src="[https://github.com/favicon.ico](https://github.com/nayana-raj/nayana-raj.github.io/blob/main/images/website.jpg)" width="40">
 
