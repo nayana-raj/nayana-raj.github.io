@@ -1,5 +1,5 @@
 
-<img src="https://github.com/nayana-raj/nayana-raj.github.io/blob/main/images/website.jpg" width="400" height="300">>
+<img src="https://github.com/nayana-raj/nayana-raj.github.io/blob/main/images/website.jpg" width="500" height="600">>
 
 I'm Nayana (pronounced /najəna/).
 
