@@ -1,7 +1,7 @@
 
 **Email: nayana dot raj squiggle hss dot iitd dot ac dot in**
 
-
+![image](/images/website.jpg)
 
 I'm Nayana (pronounced /najəna/).
 
