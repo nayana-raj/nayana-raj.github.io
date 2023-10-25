@@ -1,7 +1,7 @@
 
 **Email: nayana dot raj squiggle hss dot iitd dot ac dot in**
 
-![image](/images/website.jpg)
+<img src="[https://github.com/favicon.ico](https://github.com/nayana-raj/nayana-raj.github.io/blob/main/images/website.jpg)" width="48">
 
 I'm Nayana (pronounced /najəna/).
 
