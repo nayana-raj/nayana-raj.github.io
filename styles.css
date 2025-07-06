@@ -1,3 +1,14 @@
+a {
+  color: #228B22; /* Forest green */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2E8B57; /* Darker green on hover */
+}
+
+
 nav {
     text-align: right;
     padding: 20px 0;
@@ -16,12 +27,10 @@ nav {
 }
 
 .main-nav a {
-    text-decoration: none;
-    color: #2E8B57; /* Forest green */    
     font-weight: 500;
     font-size: 1.1em;
     padding: 5px 10px;
-    transition: all 0.3s ease;
+    border-radius: 4px;
 }
 
 .main-nav a:hover {
