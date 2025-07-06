@@ -1,3 +1,9 @@
+/* ▼ TEMPORARY DEBUGGING - REMOVE LATER ▼ */
+* { outline: 1px solid red; } /* Shows all element boundaries */
+section { background: rgba(255,0,0,0.1); } /* Highlights sections in pink */
+/* ▲ REMOVE AFTER FIXING SPACING ▲ */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -36,6 +42,16 @@ body {
     border-radius: 8px;
     border: 1px solid #eee;
 }
+
+
+.bio-section {
+  margin-bottom: 20px; /* Adjust this value as needed */
+}
+
+.updates {
+  margin-top: 10px; /* Adjust this value as needed */
+}
+
 
 /* Mobile layout */
 @media (max-width: 768px) {
