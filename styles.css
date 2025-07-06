@@ -1,6 +1,38 @@
-/* TEMPORARY DEBUGGING IF REQUIRED*/
-/* * { outline: 1px solid red; } /* show all element boundaries */
-/* section { background: rgba(255,0,0,0.1); } /* highlight sections in pink */
+nav {
+    text-align: right;
+    padding: 20px 0;
+}
+
+.main-nav {
+    list-style: none;
+    display: inline-flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+.main-nav a:hover {
+    color: #0066cc;
+}
+
+.main-nav a.active {
+    border-bottom: 2px solid #0066cc;
+    color: #0066cc;
+}
+
 
 
 * {
