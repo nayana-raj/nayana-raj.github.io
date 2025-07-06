@@ -1,11 +1,11 @@
 a {
-  color: #228B22; /* Forest green */
+  color: #228B22; /* forest green throughout for links */
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #2E8B57; /* Darker green on hover */
+  color: #2E8B57; /* darker green on hover */
 }
 
 
@@ -99,27 +99,27 @@ body {
 }
 
 .email-link {
-  color: inherit; /* Keeps your existing text color */
+  color: inherit; /* keeps your existing text color */
   text-decoration: none;
   cursor: pointer;
-  border-bottom: 1px dotted #228B22; /* Optional subtle underline */
+  border-bottom: 1px dotted #228B22; /* subtle underline */
 }
 
 .email-link:hover {
-  color: #2E8B57; /* Your hover green */
+  color: #2E8B57; /* email link hovers green */
 }
 
 
 .social-icons {
-  position: fixed; /* Stays visible when scrolling */
+  position: absolute; /* stays visible when scrolling */
   top: 25px;
-  left: calc((100% - min(1200px, 90%)) / 2); /* Matches body container */;
+  left: calc((100% - min(1200px, 90%)) / 2); /* matches alignment of body container */;
   display: flex;
-  gap: 25px; /* Increased spacing */
+  gap: 25px; /* increased spacing */
   z-index: 1000;
   padding: 10px 0;
-  background: rgba(255,255,255,0.8); /* Optional: subtle background */
-  border-radius: 50px; /* Optional: rounded container */
+  background: rgba(255,255,255,0.8); 
+  border-radius: 50px; /* rounded container */
 }
 
 .social-icons img {
