@@ -1,7 +1,7 @@
-/* ▼ TEMPORARY DEBUGGING - REMOVE LATER ▼ */
-* { outline: 1px solid red; } /* Shows all element boundaries */
-section { background: rgba(255,0,0,0.1); } /* Highlights sections in pink */
-/* ▲ REMOVE AFTER FIXING SPACING ▲ */
+/* TEMPORARY DEBUGGING IF REQUIRED*/
+/* * { outline: 1px solid red; } /* show all element boundaries */
+/* section { background: rgba(255,0,0,0.1); } /* highlight sections in pink */
+/* REMOVE AFTER FIXING SPACING */
 
 
 * {
