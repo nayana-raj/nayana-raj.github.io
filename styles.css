@@ -45,7 +45,6 @@ nav {
 }
 
 
-
 * {
     margin: 0;
     padding: 0;
@@ -97,6 +96,17 @@ body {
 
 .updates {
   margin-top: 10px; 
+}
+
+.email-link {
+  color: inherit; /* Keeps your existing text color */
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: 1px dotted #228B22; /* Optional subtle underline */
+}
+
+.email-link:hover {
+  color: #2E8B57; /* Your hover green */
 }
 
 
