@@ -1,24 +1,52 @@
-.bio-section {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 30px;
-}
-
-.bio-text {
-    flex: 1;
-}
-
-.bio-image {
-    flex-shrink: 0;
-    margin-top: 20px; /* Adjust as needed */
-}
-
 @media (max-width: 768px) {
     .bio-section {
         flex-direction: column;
     }
     .bio-image {
         align-self: center;
+    }
+}
+
+.bio-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; /* Aligns items at the top */
+    gap: 40px; /* Space between text and image */
+    margin: 30px 0; /* Vertical spacing */
+}
+
+.bio-text {
+    flex: 1;
+    min-width: 60%; /* Ensures text takes majority space */
+    padding-right: 20px; /* Right padding */
+}
+
+.bio-image {
+    flex: 0 0 auto; /* Don't grow or shrink */
+    margin: 20px 0; /* Vertical margins */
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional subtle shadow */
+}
+
+.bio-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block; /* Removes bottom space under image */
+}
+
+/* Responsive adjustment for mobile */
+@media (max-width: 768px) {
+    .bio-section {
+        flex-direction: column;
+    }
+    .bio-text {
+        padding-right: 0;
+        min-width: 100%;
+    }
+    .bio-image {
+        margin: 30px auto; /* Centers image on mobile */
     }
 }
