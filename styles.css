@@ -110,6 +110,24 @@ body {
 }
 
 
+.social-icons {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  gap: 15px;
+  z-index: 100;
+}
+
+.social-icons img {
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+
 footer {
   text-align: right;  
   padding: 20px 0;      
