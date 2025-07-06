@@ -111,20 +111,25 @@ body {
 
 
 .social-icons {
-  position: absolute;
-  top: 20px;
-  left: 20px;
+  position: fixed; /* Stays visible when scrolling */
+  top: 25px;
+  left: 25px;
   display: flex;
-  gap: 15px;
-  z-index: 100;
+  gap: 25px; /* Increased spacing */
+  z-index: 1000;
+  padding: 10px;
+  background: rgba(255,255,255,0.8); /* Optional: subtle background */
+  border-radius: 50px; /* Optional: rounded container */
 }
 
 .social-icons img {
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
+  opacity: 0.8;
 }
 
 .social-icons img:hover {
-  transform: scale(1.1);
+  opacity: 1;
+  transform: translateY(-2px);
 }
 
 
