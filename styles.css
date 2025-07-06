@@ -111,13 +111,13 @@ body {
 
 
 .social-icons {
-  position: fixed; /* Stays visible when scrolling */
+  position: absolute; /* Stays visible when scrolling */
   top: 25px;
-  left: 25px;
+  left: calc((100% - min(1200px, 90%)) / 2); /* Matches body container */;
   display: flex;
   gap: 25px; /* Increased spacing */
   z-index: 1000;
-  padding: 10px;
+  padding: 10px 0;
   background: rgba(255,255,255,0.8); /* Optional: subtle background */
   border-radius: 50px; /* Optional: rounded container */
 }
@@ -155,4 +155,7 @@ footer p {
     .bio-image {
         align-self: center;
     }
+   .social-icons {
+     left: 5%;
+}
 }
