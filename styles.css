@@ -111,7 +111,7 @@ body {
 
 
 .social-icons {
-  position: absolute; /* Stays visible when scrolling */
+  position: fixed; /* Stays visible when scrolling */
   top: 25px;
   left: calc((100% - min(1200px, 90%)) / 2); /* Matches body container */;
   display: flex;
