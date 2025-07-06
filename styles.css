@@ -1,7 +1,6 @@
 /* TEMPORARY DEBUGGING IF REQUIRED*/
 /* * { outline: 1px solid red; } /* show all element boundaries */
 /* section { background: rgba(255,0,0,0.1); } /* highlight sections in pink */
-/* REMOVE AFTER FIXING SPACING */
 
 
 * {
@@ -45,15 +44,21 @@ body {
 
 
 .bio-section {
-  margin-bottom: 20px; /* Adjust this value as needed */
+  margin-bottom: 20px; 
 }
 
 .updates {
-  margin-top: 10px; /* Adjust this value as needed */
+  margin-top: 10px; 
 }
 
 
-/* Mobile layout */
+footer p {
+  font-size: 0.9em; 
+  color: #666;     
+  margin-top: 40px; 
+}
+
+/* mobile layout */
 @media (max-width: 768px) {
     .bio-section {
         flex-direction: column;
