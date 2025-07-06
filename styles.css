@@ -31,10 +31,6 @@ a:hover {
 }
 
 
-.main-nav a.active {
-    border-bottom: 3px solid #004d00;
-}
-
 nav {
     text-align: right;
     padding: 20px 0;
