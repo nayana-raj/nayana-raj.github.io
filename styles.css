@@ -1,3 +1,30 @@
+/* Change ALL links */
+a {
+  color: #228B22; /* Forest green */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2E8B57; /* Darker green on hover */
+}
+
+/* Change navigation links specifically */
+.main-nav a {
+  color: #228B22; /* Forest green */
+}
+
+.main-nav a:hover {
+  color: #2E8B57;
+}
+
+/* Change active tab color */
+.main-nav a.active {
+  color: #006400; /* Dark green */
+  border-bottom-color: #006400;
+}
+
+
 nav {
     text-align: right;
     padding: 20px 0;
