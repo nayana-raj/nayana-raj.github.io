@@ -52,6 +52,13 @@ body {
 }
 
 
+footer {
+  text-align: right;  
+  padding: 20px 0;      
+  margin-top: auto;
+}
+
+
 footer p {
   font-size: 0.9em; 
   color: #666;     
