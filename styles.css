@@ -196,6 +196,11 @@ footer p {
   text-decoration: none;
 }
 
+.highlight {
+    color: #228B22;
+    font-weight: bold;
+}
+
 
 /* mobile layout */
 @media (max-width: 768px) {
